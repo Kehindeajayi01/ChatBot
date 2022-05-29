@@ -1,0 +1,306 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting. For more info, please call 08036873562 to speak with our Business manager",
+        "Have a nice day. For more info, please call 08036873562 to speak with our Business manager",
+        "Bye! Come back again soon. For more info, please call 08036873562 to speak with our Business manager"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Thanks so much"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take cash?",
+        "Do you accept bank transfer?",
+        "Can I pay with Dollars or Pounds?",
+        "Are you cash only?",
+        "How do we pay?",
+        "How do we make payment?"
+      ],
+      "responses": [
+        "We accept bank transfer",
+        "We accept bank deposit"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "choose",
+      "patterns":[
+        "Why choose Aileadtech?",
+        "Why choose Aileadtech for Data Science?",
+        "Why choose Aileadtech for courses?",
+        "Why Aileadtech?",
+        "What is special about Aileadtech?"
+      ],
+      "responses":[
+        "Aileadtech has senior data scientists with many years of experience",
+        "Our tutors are specialists in the field",
+        "All our courses are hands-on with real-world examples"
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns":[
+        "Do I need to know programming?",
+        "Can I register without programming knowledge?",
+        "What if I have zero knowledge of Python?",
+        "Can a beginner register for your course?"
+      ],
+      "responses":[
+        "Our courses starts from the basics",
+        "We design our courses for complete beginners",
+        "Our courses assume zero knowledge"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns":[
+        "What courses do you offer?",
+        "Show me the list of courses",
+        "Tell me the courses"
+      ],
+      "responses":[
+        "Data Science, Data Analytics with Excel SQL Python, and PowerBI, Frontend and Backend Development",
+        "Machine Learning, Deep Learning, and Natural Language Processing"
+      ]
+    },
+    {
+      "tag": "tools",
+      "patterns":[
+        "What software do I need for this course?",
+        "Do I need a laptop to enrol?",
+        "Is laptop a requirement?",
+        "Can I take the course without a laptop?",
+        "Can I use my phone?"
+      ],
+      "responses":[
+        "You need a laptop and a stable internet",
+        "We encourage you having a laptop",
+        "Using a laptop will help you practice"
+      ]
+    },
+    {
+      "tag": "certificate",
+      "patterns":[
+        "Will I get a certificate after completion?",
+        "What certificate do you give?",
+        "Do you give certificate?"
+      ],
+      "responses":[
+        "We give certificate after completion of projects",
+        "Certificates are issued after you finish projects"
+      ]
+    },
+    {
+      "tag": "duration",
+      "patterns": [
+        "Course duration",
+        "How long is the course?",
+        "What is the course duration?"
+      ],
+      "responses": [
+        "Two months to 6 months",
+        "Minimum duration is two months",
+        "Maximum duration is six months"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns":[
+        "How much are your courses?",
+        "What is the course fee?",
+        "How much do you charge for your courses?",
+        "How much do you charge?"
+      ],
+      "responses":[
+        "Course fees are on the course webpage",
+        "You may need to create an account with us to see course fees",
+        "You can send us email to get course details"
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns":[
+        "What is your refund policy?",
+        "What if I want my money back?",
+        "Can I withdraw from a course and request for refund?",
+        "Can I get a refund?"
+      ],
+      "responses":[
+        "We only issue refund within three days after ist class",
+        "You can get back your money if you cancel after ist class",
+        "We give refund if you cancel after ist class"
+      ]
+    },
+    {
+      "tag": "job",
+      "patterns":[
+        "Do you help with job?",
+        "Do you provide job to your students?",
+        "Are jobs available after taking your courses?",
+        "Do you connect your students to clients?",
+        "Do you offer job opportunity?"
+      ],
+      "responses":[
+        "We refer students on client requests",
+        "We help connect students to available jobs",
+        "We provide support throughout the job process"
+      ]
+    },
+    {
+      "tag": "schedule",
+      "patterns":[
+        "Do you have classes on weekdays?",
+        "What days do you hold classes?",
+        "When are your classes?",
+        "Are classes in the morining?"
+      ],
+      "responses":[
+        "All classes are on weekends",
+        "Classes holds on weekends",
+        "We have morning, Afternoon, and Evenining classes on weekends"
+      ]
+    },
+    {
+      "tag": "structure",
+      "patterns":[
+        "Do you have physical classes?",
+        "Are classes onsite?",
+        "Are classes virtual or physical?",
+        "Are there physical classes?"
+      ],
+      "responses": [
+        "All classes are live online",
+        "We hold live online classes",
+        "We do not have physical claases for now"
+      ]
+    },
+    {
+      "tag": "videos",
+      "patterns":[
+        "Are classes recorded?",
+        "Do you give class recordings?",
+        "Can we get recordings of each class?",
+        "Can we get videos of each class?"
+      ],
+      "responses":[
+        "Class recordings are available",
+        "We upload class videos to stduent portal",
+        "All classes are recorded"
+      ]
+    },
+    {
+      "tag": "interviews",
+      "patterns":[
+        "Do you help with interview?",
+        "Do you prepare your students for interview?",
+        "Do you share interview questions?"
+      ],
+      "responses":[
+        "We share interview tips with students",
+        "We help with interviews"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the office located?",
+        "Give me office location",
+        "Where are you located",
+        "Wha is your office address?"
+      ],
+      "responses":[
+        "We are located in Lagos, Nigeria but operate online",
+        "We operate mainly online"
+      ]
+    },
+    {
+      "tag": "batch",
+      "patterns":[
+        "When is the next batch starting?",
+        "How can I register for your course?",
+        "How can I register",
+        "When are you starting your class?",
+        "When can I register?"
+      ],
+      "responses":[
+        "Please check the website portal for course registration information",
+        "More information are in academy section",
+        "You can create an account to see more info on the available courses"
+      ]
+    },
+    {
+      "tag": "number",
+      "patterns":[
+        "Batch strength",
+        "How many people are in a batch?",
+        "How many people register for your courses?",
+        "How many people do you admit?"
+      ],
+      "responses":[
+        "Usually 15 to 20 people",
+        "We admit an average of 20",
+        "We do not allow too many people"
+      ]
+    },
+    {
+      "tag": "training",
+      "patterns":[
+        "Do you do corporate training?",
+        "Can you train our staff?",
+        "Do you provide training for organizations?"
+      ],
+      "responses":[
+        "We provide corporate training upon request",
+        "We organize training for organization"
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns":[
+        "How may projects do you give?",
+        "Do you give projects?",
+        "Are we going to do a project?"
+      ],
+      "responses":[
+        "We give at least 2 projects for a course",
+        "Every course includes at least 2 projects"
+      ]
+    }
+  ]
+}
